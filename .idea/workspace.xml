@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="add new service with consumer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LogService.java" afterDir="false" />
+    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="add email service and log service with consumers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,58 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.LogService">
+    <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmailService" />
+      <module name="ecommerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudDetectorService (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FraudDetectorService" />
+      <module name="ecommerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudDetectorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FraudDetectorService" />
+      <module name="ecommerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogService" />
+      <module name="ecommerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewOrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewOrderMain" />
+      <module name="ecommerce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FraudDetectorService (1)" />
+      <item itemvalue="Application.EmailService" />
+      <item itemvalue="Application.LogService" />
+      <item itemvalue="Application.NewOrderMain" />
+      <item itemvalue="Application.FraudDetectorService" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.EmailService" />
+        <item itemvalue="Application.FraudDetectorService" />
+        <item itemvalue="Application.NewOrderMain" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689871542726</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add email service and log service with consumers">
+      <created>1689872612934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689872612934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add new service with consumer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new service with consumer" />
+    <MESSAGE value="add email service and log service with consumers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add email service and log service with consumers" />
   </component>
 </project>
