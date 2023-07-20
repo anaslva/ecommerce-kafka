@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="add key to new order producer to different topic partitions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConsumerFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/KafkaService.java" afterDir="false" />
+    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="add new kafka layers for producers and consumers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -158,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689880440467</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new kafka layers for producers and consumers">
+      <created>1689890229459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689890229459</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +215,7 @@
     <MESSAGE value="add new service with consumer" />
     <MESSAGE value="add email service and log service with consumers" />
     <MESSAGE value="add key to new order producer to different topic partitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="add key to new order producer to different topic partitions" />
+    <MESSAGE value="add new kafka layers for producers and consumers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new kafka layers for producers and consumers" />
   </component>
 </project>
