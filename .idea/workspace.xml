@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="add new kafka layers for producers and consumers">
+    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="[fix] remove imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmailService">
+  <component name="RunManager" selected="Application.NewOrderMain">
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EmailService" />
       <module name="ecommerce" />
@@ -113,9 +109,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmailService" />
         <item itemvalue="Application.NewOrderMain" />
         <item itemvalue="Application.FraudDetectorService" />
+        <item itemvalue="Application.EmailService" />
         <item itemvalue="Application.LogService" />
       </list>
     </recent_temporary>
@@ -164,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689890229459</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[fix] remove imports">
+      <created>1689890300193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689890300193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +219,32 @@
     <MESSAGE value="add email service and log service with consumers" />
     <MESSAGE value="add key to new order producer to different topic partitions" />
     <MESSAGE value="add new kafka layers for producers and consumers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new kafka layers for producers and consumers" />
+    <MESSAGE value="[fix] remove imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix] remove imports" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/NewOrderMain.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/KafkaDispatcher.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/KafkaDispatcher.java</url>
+          <line>27</line>
+          <properties class="KafkaDispatcher" method="send">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
