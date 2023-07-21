@@ -4,20 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="[fix] remove imports">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GsonDeserializer/GsonDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GsonSerializer/GsonSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+    <list default="true" id="cd9517ef-4b95-449f-a959-3e920fce085d" name="Changes" comment="add new types to producer and consumer and add json serializer and deserializer">
+      <change afterPath="$PROJECT_DIR$/commom-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-email/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConsumerFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/KafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-email/src/main/java/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GsonDeserializer/GsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/GsonDeserializer/GsonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GsonSerializer/GsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/GsonSerializer/GsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/commom-kafka/src/main/java/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-log/src/main/java/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/NewOrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,31 +63,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="GsonDeserializer" />
       <recent name="GsonSerializer" />
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmailService">
+  <component name="RunManager" selected="Application.LogService">
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EmailService" />
-      <module name="ecommerce" />
+      <module name="service-email" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,21 +105,28 @@
     </configuration>
     <configuration name="FraudDetectorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FraudDetectorService" />
-      <module name="ecommerce" />
+      <module name="service-fraud-detector" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudDetectorService" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FraudDetectorService" />
+      <module name="service-fraud-detector" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LogService" />
-      <module name="ecommerce" />
+      <module name="service-log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="NewOrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NewOrderMain" />
-      <module name="ecommerce" />
+      <module name="service-new-order" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,10 +140,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmailService" />
-        <item itemvalue="Application.FraudDetectorService" />
-        <item itemvalue="Application.NewOrderMain" />
         <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.EmailService" />
+        <item itemvalue="Application.NewOrderMain" />
+        <item itemvalue="Application.FraudDetectorService" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689890300193</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add new types to producer and consumer and add json serializer and deserializer">
+      <created>1689973551633</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689973551633</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,13 +258,14 @@
     <MESSAGE value="add key to new order producer to different topic partitions" />
     <MESSAGE value="add new kafka layers for producers and consumers" />
     <MESSAGE value="[fix] remove imports" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix] remove imports" />
+    <MESSAGE value="add new types to producer and consumer and add json serializer and deserializer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new types to producer and consumer and add json serializer and deserializer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/EmailService.java</url>
+          <url>file://$PROJECT_DIR$/service-email/src/main/java/EmailService.java</url>
           <line>6</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>

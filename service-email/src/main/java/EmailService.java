@@ -5,11 +5,11 @@ import java.util.Map;
 public class EmailService {
     public static void main(String[] args) {
         var emailService = new EmailService();
-        try(var service = new KafkaService<String>(
+        try(var service = new KafkaService<Email>(
                 EmailService.class.getSimpleName(),
                 "ECOMMERCE_SEND_EMAIL",
                 emailService::parse,
-                String.class,
+                Email.class,
                 Map.of()))
         {
             service.run();
@@ -17,7 +17,7 @@ public class EmailService {
 
     }
 
-    private void parse(ConsumerRecord<String, String> record){
+    private void parse(ConsumerRecord<String, Email> record){
         System.out.println("---------------------------------------------------------------------------");
         System.out.println("Sending email");
         System.out.println("key: " + record.key());
